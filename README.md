@@ -1,10 +1,10 @@
-# 🤖 Chatbot Mini Project
+# Chatbot Mini Project
 
-A collection of three chatbot implementations in Python, each using a different approach — from simple rule-based to AI-powered.
+A collection of three chatbot implementations in Python, each using a different approach from simple rule-based to AI-powered.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 chatbot/
@@ -24,13 +24,13 @@ chatbot/
 
 ---
 
-## 🧩 Bot 1 — Rule-Based Bot (NLTK)
+## Bot 1 RuleBased Bot (NLTK)
 
-A simple pattern-matching chatbot using `nltk.chat.util`. Responds to fixed phrases with predefined replies.
+A simple pattern matching chatbot using `nltk.chat.util`. Responds to fixed phrases with predefined replies.
 
 **Supported inputs:** `hello`, `who are you?`, `my name is ...`, `help`, `bye`
 
-### ▶️ How to run
+### How to run
 
 ```bash
 pip install nltk
@@ -39,11 +39,11 @@ python nltk_rule_bot.py
 
 ---
 
-## 🧠 Bot 2 — GPT-2 Bot
+## Bot 2 GPT-2 Bot
 
 A generative AI chatbot using Hugging Face's `transformers` library with the pretrained GPT-2 model. Takes a prompt and generates a natural language response.
 
-### ▶️ How to run
+### How to run
 
 ```bash
 pip install -r requirements_gpt2.txt
@@ -54,7 +54,7 @@ python gpt2_bot.py
 
 ---
 
-## 🚀 Bot 3 — Rasa Chatbot (`mon_chatbot`)
+## Bot 3 Rasa Chatbot (`mon_chatbot`)
 
 A full conversational AI chatbot built with [Rasa Open Source](https://rasa.com/). Handles intents like greetings, farewells, asking how the bot is, and help requests.
 
@@ -94,7 +94,7 @@ rasa shell
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 | Bot | Python | Key Dependencies |
 |-----|--------|-----------------|
@@ -102,8 +102,4 @@ rasa shell
 | GPT-2 Bot | 3.7+ | `transformers`, `torch` |
 | Rasa Bot | 3.8+ | `rasa` |
 
----
 
-## 👤 Author
-
-**FatihAmine** — [github.com/FatihAmine](https://github.com/FatihAmine)
