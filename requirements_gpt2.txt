@@ -1,0 +1,4 @@
+transformers
+# Torch may not have wheels for Python 3.13 on Windows.
+# If install fails, use Python 3.10/3.11.
+torch

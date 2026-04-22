@@ -1,0 +1,32 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hello
+      - hi
+      - hey
+
+  - intent: goodbye
+    examples: |
+      - goodbye
+      - bye
+      - see you
+
+  - intent: bot_challenge
+    examples: |
+      - who are you
+      - are you a bot
+      - what are you
+
+  - intent: ask_how_are_you
+    examples: |
+      - how are you
+      - how are you?
+      - how is it going
+
+  - intent: help
+    examples: |
+      - help
+      - menu
+      - what can you do

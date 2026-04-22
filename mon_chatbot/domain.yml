@@ -1,0 +1,28 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - ask_how_are_you
+  - help
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you?"
+
+  utter_goodbye:
+    - text: "Goodbye!"
+
+  utter_iamabot:
+    - text: "I am a simple chatbot."
+
+  utter_how_are_you:
+    - text: "I'm doing well. How about you?"
+
+  utter_help:
+    - text: "Try: hello, who are you, how are you, goodbye"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

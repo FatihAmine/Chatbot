@@ -1,0 +1,4 @@
+# Rasa 3.x (current) requires Python 3.8–3.10 (Python < 3.11).
+# If install fails, ensure you are using Python 3.10.
+rasa==3.6.21
+rasa-sdk>=3.6.2,<3.7.0

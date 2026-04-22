@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Trained models (large binary files)
+models/
+
+# Temp files
+_tmp_absl/
+__pycache__/
+*.pyc
+*.pyo
+
+# Rasa logs
+rasa.log
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Trained models (large binary files)
+mon_chatbot/models/
+
+# Temp files
+_tmp_absl/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+rasa.log
+
+# OS files
+.DS_Store
+Thumbs.db
