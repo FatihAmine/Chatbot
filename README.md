@@ -60,7 +60,7 @@ A full conversational AI chatbot built with [Rasa Open Source](https://rasa.com/
 
 **Intents:** `greet`, `goodbye`, `ask_how_are_you`, `bot_challenge`, `help`
 
-### ▶️ How to run
+### How to run
 
 **1. Install dependencies**
 ```bash
